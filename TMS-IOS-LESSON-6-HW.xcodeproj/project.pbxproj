@@ -13,6 +13,9 @@
 		040AFCD52B20C99900BC07FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040AFCD32B20C99900BC07FA /* Main.storyboard */; };
 		040AFCD72B20C99B00BC07FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040AFCD62B20C99B00BC07FA /* Assets.xcassets */; };
 		040AFCDA2B20C99B00BC07FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040AFCD82B20C99B00BC07FA /* LaunchScreen.storyboard */; };
+		040AFCE22B20CA4900BC07FA /* Homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AFCE12B20CA4900BC07FA /* Homework.swift */; };
+		040AFCE52B20D72B00BC07FA /* BookGenres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AFCE42B20D72B00BC07FA /* BookGenres.swift */; };
+		040AFCEA2B20DB9200BC07FA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AFCE92B20DB9200BC07FA /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		040AFCD62B20C99B00BC07FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040AFCD92B20C99B00BC07FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040AFCDB2B20C99B00BC07FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040AFCE12B20CA4900BC07FA /* Homework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework.swift; sourceTree = "<group>"; };
+		040AFCE42B20D72B00BC07FA /* BookGenres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookGenres.swift; sourceTree = "<group>"; };
+		040AFCE92B20DB9200BC07FA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		040AFCCC2B20C99900BC07FA /* TMS-IOS-LESSON-6-HW */ = {
 			isa = PBXGroup;
 			children = (
+				040AFCE62B20DAE400BC07FA /* Structures */,
+				040AFCE32B20D71A00BC07FA /* Enums */,
 				040AFCCD2B20C99900BC07FA /* AppDelegate.swift */,
 				040AFCCF2B20C99900BC07FA /* SceneDelegate.swift */,
 				040AFCD12B20C99900BC07FA /* ViewController.swift */,
+				040AFCE12B20CA4900BC07FA /* Homework.swift */,
 				040AFCD32B20C99900BC07FA /* Main.storyboard */,
 				040AFCD62B20C99B00BC07FA /* Assets.xcassets */,
 				040AFCD82B20C99B00BC07FA /* LaunchScreen.storyboard */,
 				040AFCDB2B20C99B00BC07FA /* Info.plist */,
 			);
 			path = "TMS-IOS-LESSON-6-HW";
+			sourceTree = "<group>";
+		};
+		040AFCE32B20D71A00BC07FA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				040AFCE42B20D72B00BC07FA /* BookGenres.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		040AFCE62B20DAE400BC07FA /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				040AFCE92B20DB9200BC07FA /* Book.swift */,
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				040AFCD22B20C99900BC07FA /* ViewController.swift in Sources */,
+				040AFCE22B20CA4900BC07FA /* Homework.swift in Sources */,
+				040AFCEA2B20DB9200BC07FA /* Book.swift in Sources */,
 				040AFCCE2B20C99900BC07FA /* AppDelegate.swift in Sources */,
+				040AFCE52B20D72B00BC07FA /* BookGenres.swift in Sources */,
 				040AFCD02B20C99900BC07FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
